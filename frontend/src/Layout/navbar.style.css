@@ -1,3 +1,8 @@
 .color-white{
     color: white !important;
 }
+
+.homeLogo{
+    position: relative;
+    left: 40vw;
+}

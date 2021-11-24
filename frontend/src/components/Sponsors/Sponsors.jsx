@@ -13,10 +13,12 @@ export const Sponsors = () => {
     {Sponser.map(Sponsor => {
       return(
         <Carousel.Item>
-            <img
+            <img 
               className="d-block w-100"
               src={Sponsor.Image}
               alt={Sponsor.id}
+              width="100%"
+              height="150px"
            />
            <Carousel.Caption>
              <h5>{Sponsor.SponsorNavn}</h5>
