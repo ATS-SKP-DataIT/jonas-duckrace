@@ -10,6 +10,9 @@ import { Buy } from './modules/Buy/Buy'
 import { Event } from './modules/Event/Event'
 import { Prizes } from './modules/Prizes/Prizes'
 import { Purpose } from "./modules/Purpose/Purpose"
+import { AboutUs } from "./modules/AboutUs/AboutUs"
+import { Donate } from "./modules/Donate/Donate"
+
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
           <Route path="/event" exact={true} component={Event} />
           <Route path="/prizes" exact={true} component={Prizes} />
           <Route path="/purpose" exact={true} component={Purpose} />
+          <Route path="/AboutUs" exact={true} component={AboutUs} />
+          <Route path="/Donate" exact={true} component={Donate} />
           <Route component={NotFound} />
         </Switch>
       </Layout>

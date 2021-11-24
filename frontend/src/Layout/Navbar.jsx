@@ -14,12 +14,13 @@ export const Navigation = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/aarhus-duck-race-demo">Home</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/concept">Concept</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/buy">Buy</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/event">Event</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/prizes">Prizes</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/purpose">Purpose</Nav.Link>
+              <Nav.Link href="/aarhus-duck-race-demo/concept">Hvad er Århus Duck Race?</Nav.Link>
+              <Nav.Link href="/aarhus-duck-race-demo/buy">Køb din and her</Nav.Link>
+              <Nav.Link href="/aarhus-duck-race-demo/donate">Doner til os her!</Nav.Link>
+              <Nav.Link href="/aarhus-duck-race-demo/event">Hvor foregår det?</Nav.Link>
+              <Nav.Link href="/aarhus-duck-race-demo/prizes">Præmier</Nav.Link>
+              <Nav.Link href="/aarhus-duck-race-demo/purpose">Formål</Nav.Link>
+              <Nav.Link href="/aarhus-duck-race-demo/aboutus">Om os</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
