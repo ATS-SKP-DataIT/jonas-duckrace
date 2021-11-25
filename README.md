@@ -1,4 +1,4 @@
-# Jonas-Duckrace
+# Aarhus-Duck-Race-Demo
 Aarhus-Duck-Race-Demo
 
 # Tools Requirments
