@@ -1,5 +1,5 @@
-# aarhus-duck-race-demo
-aarhus-duck-race-demo
+# Aarhus-Duck-Race-Demo
+Aarhus-Duck-Race-Demo
 
 # Tools Requirments
 
