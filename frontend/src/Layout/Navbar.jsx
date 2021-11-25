@@ -3,8 +3,8 @@ import React from "react";
 import "./navbar.style.css";
 
 // Billeder
-import burgerLogo from "../assets/burger-button.png"
-import navLogo from "../assets/home-button.png"
+import burgerLogo from "../assets/img/burger-button.png"
+import navLogo from "../assets/img/home-button.png"
 
 // React Components import
 import Container from "react-bootstrap/Container";
