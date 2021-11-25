@@ -10,7 +10,7 @@ import Mplus from "../../assets/fonts/M_PLUS_Rounded_1c/._MPLUSRounded1c-Regular
 export const AboutUs = () => {
   return (
     <div style={{ textAlign:"center", alignItems: "center", justifyContent: "center"}}>
-      <p style={{ fontFamily: {Acme}, color: "#2B2E34", fontSize: 26 }}>
+      <p style={{ marginTop: 5, fontFamily: {Acme}, color: "#2B2E34", fontSize: 25 }}>
         <img src={FlagLogo} alt="Error"/> Om os
       </p>
       <div style={{ fontSize: 16, fontFamily: {Mplus} }}>
