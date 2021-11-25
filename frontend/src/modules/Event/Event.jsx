@@ -3,12 +3,11 @@ import React from "react";
 import WhereLogo from "../../assets/img/where-is-it-page-header.png"
 import Location from "../../assets/img/PlaceholderEmmet.png"
 
-
 export const Event = () => {
   return (
     <div style={{ flex: 1, textAlign: "center", alignItems: "center", justifyContent: "center" }}>
       <p style={{ marginTop: 5, color: "#000000", fontSize: 25  }}> 
-        <img src={WhereLogo} alt="Error"/>Hvor foregår racet?
+        <img src={WhereLogo} alt="Error"/> Hvor foregår racet?
       </p>
       <div>
         <img src={Location} alt="Error" style={{ width: "70%", border: "2px solid black"}}/>

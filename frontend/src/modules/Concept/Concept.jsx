@@ -3,17 +3,13 @@ import React from "react";
 // Import af billeder
 import FlagLogo from "../../assets/img/page-header-duck.png";
 
-// Import af Text Fonts
-import Acme from "../../assets/fonts/Acme/._Acme-Regular.ttf";
-import Mplus from "../../assets/fonts/M_PLUS_Rounded_1c/._MPLUSRounded1c-Regular.ttf";
-
 export const Concept = () => {
   return(
-    <div style={{ fontFamily: {Acme}, textAlign: "center", flex: 1, alignItems: "center", justifyContent: "center" }}>
+    <div style={{ textAlign: "center", flex: 1, alignItems: "center", justifyContent: "center" }}>
             <p style={{ marginTop: 10, color: "#2B2E34", fontSize: 26 }}>
                 <img src={FlagLogo} alt="Error"/> Hvad Er Aarhus Duck Race?
             </p>
-            <div style={{ fontFamily: {Mplus}, fontSize: 16}}>
+            <div style={{ fontSize: 16}}>
             <p>
                 Aarhus Duckrace er et spændende festligt
                 familie arrangement. Hvor 5000 super

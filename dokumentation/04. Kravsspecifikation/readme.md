@@ -78,6 +78,9 @@ React Native er en open-source UI-software framework lavet af Facebook. Det brug
 ### React.js
 React er et gratis og open source-front JavaScript-bibliotek til opbygning af brugergrænseflader eller UI-komponenter. Det vedligeholdes af Facebook og et community af individuelle udviklere og virksomheder.
 
+## Dayly build
+https://ats-skp-datait.github.io/skp-projekt-aarhus-duck-race/
+
 ## Design manual
 Mediegrafikerne har lavet en design manual som viser satruktur og udseende<br />
 Den kan ses på:<br />
