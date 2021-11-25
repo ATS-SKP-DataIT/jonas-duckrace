@@ -18,7 +18,7 @@ export const Sponsors = () => {
               src={Sponsor.Image}
               alt={Sponsor.id}
               width="100%"
-              height="150px"
+              height="130px"
            />
            <Carousel.Caption>
              <h5>{Sponsor.SponsorNavn}</h5>
