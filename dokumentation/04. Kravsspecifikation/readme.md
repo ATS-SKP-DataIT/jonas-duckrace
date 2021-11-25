@@ -1,5 +1,5 @@
 # Kravspecifikation for Aarhus Duckrace projekt
-Version 1.0
+Version 1.7
 Af: Karsten Reitan Sørensen
 
 ## Resume
