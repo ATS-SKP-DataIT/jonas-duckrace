@@ -42,10 +42,8 @@ Til projektet udarbejdes en kravspecifikation, som samler krav, aftaler og inter
 ## Uden for scope i denne produktion
 - Der er stadig et udestående med drone flyvning i forbindelse med arrangementet, tilladelser og vindpåvirkning på ænderne
 - Der er et udestående med tilladelser generelt
-
-
-
-
+<br />
+<br />
 # Teknologi - Produktionsmiljø
 ### Shortcut (skiftet navn fra Clubhouse.io)
 Shortcut er et produktion plænlægningsværktøj som lægger sig tøt op SCRUM arbejdsmetoden som bliver anvendt i software udvikling. Den integreres sig med mange eksterne almindeligt brugte værktøjer f.eks. Slack, GitLab, GitHub og en række Google services.
