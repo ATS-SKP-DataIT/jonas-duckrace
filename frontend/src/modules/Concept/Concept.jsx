@@ -10,7 +10,7 @@ import Mplus from "../../assets/fonts/M_PLUS_Rounded_1c/._MPLUSRounded1c-Regular
 export const Concept = () => {
   return(
     <div style={{ fontFamily: {Acme}, textAlign: "center", flex: 1, alignItems: "center", justifyContent: "center" }}>
-            <p style={{ color: "#2B2E34", fontSize: 25 }}>
+            <p style={{  color: "#2B2E34", fontSize: 25 }}>
                 <img src={FlagLogo} alt="Error"/> Hvad Er Aarhus Duck Race?
             </p>
             <div style={{ fontFamily: {Mplus}, fontSize: 16}}>

@@ -7,11 +7,11 @@ import Location from "../../assets/img/PlaceholderEmmet.png"
 export const Event = () => {
   return (
     <div style={{ flex: 1, textAlign: "center", alignItems: "center", justifyContent: "center" }}>
-      <p style={{ color: "#000000", fontSize: 30 }}> 
+      <p style={{ color: "#000000", fontSize: 30  }}> 
         <img src={WhereLogo} alt="Error"/>Hvor foregår racet?
       </p>
       <div>
-        <img src={Location} alt="Error" style={{width: "70%", border: "2px solid black"}}/>
+        <img src={Location} alt="Error" style={{ overflow: "scroll", width: "70%", border: "2px solid black"}}/>
         <p><br/>
           Vore ænder skal tilbageligge den krævende
           strækning fra Vester Alle til Immervad.
