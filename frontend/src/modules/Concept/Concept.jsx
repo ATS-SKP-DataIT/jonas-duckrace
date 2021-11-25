@@ -1,6 +1,9 @@
 import React from "react";
 
+// Import af billeder
 import FlagLogo from "../../assets/img/page-header-duck.png";
+
+// Import af Text Fonts
 import Acme from "../../assets/fonts/Acme/._Acme-Regular.ttf";
 import Mplus from "../../assets/fonts/M_PLUS_Rounded_1c/._MPLUSRounded1c-Regular.ttf";
 

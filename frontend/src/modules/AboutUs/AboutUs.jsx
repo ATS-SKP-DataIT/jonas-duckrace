@@ -1,14 +1,19 @@
 import React from "react";
 
+// Import af billeder
 import FlagLogo from "../../assets/img/page-header-duck.png";
+
+// Import af Text Fonts
+import Acme from "../../assets/fonts/Acme/._Acme-Regular.ttf";
+import Mplus from "../../assets/fonts/M_PLUS_Rounded_1c/._MPLUSRounded1c-Regular.ttf";
 
 export const AboutUs = () => {
   return (
     <div style={{ textAlign:"center", alignItems: "center", justifyContent: "center" }}>
-      <p style={{ color: "#000000", fontSize: 26 }}>
-        <img src={FlagLogo} alt="Error"/>Om os
+      <p style={{ fontFamily: {Acme}, color: "#2B2E34", fontSize: 26 }}>
+        <img src={FlagLogo} alt="Error"/> Om os
       </p>
-      <div style={{ fontSize: 16, fontFamily: "Arial, sans-serif"}}>
+      <div style={{ fontSize: 16, fontFamily: {Mplus} }}>
         <p>
           Foreningen ”Aarhus duck Race” er
           en forening som ene og alene
