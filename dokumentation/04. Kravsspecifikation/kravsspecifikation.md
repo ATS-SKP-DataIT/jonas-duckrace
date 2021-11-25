@@ -120,9 +120,6 @@ Mail: seba757i@edu.aarhustech.dk
 Frank Møller Jensen<br>
 Mail: 	fran751b@edu.aarhustech.dk
 
-Hakan Sahin<br />
-Mail: haka0105@edu.aarhustech.dk
-
 ## Grafisk team 
 Kan træffes på: kontakt@inhouse.dk<br/>
 <br/>
