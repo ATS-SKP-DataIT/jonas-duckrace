@@ -1,7 +1,7 @@
 import React from "react";
 
 // Import af billede til and
-import TextLogo from "../../assets/img/page-header-duck.png";
+import TextLogo from "../../assets/img/stor-and.png";
 
 export const Buy = () => {
   return (
