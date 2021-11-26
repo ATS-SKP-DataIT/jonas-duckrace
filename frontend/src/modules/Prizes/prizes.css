@@ -1,0 +1,8 @@
+.container{
+    display: inline-block;
+    gap: 20px;
+}
+
+.col{
+    border: 1px solid black;
+}
