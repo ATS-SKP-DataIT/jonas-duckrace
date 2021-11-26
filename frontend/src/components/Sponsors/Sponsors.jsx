@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 export const Sponsors = () => {
   return (
-    <Carousel variant="dark" style={{position: "absolute", bottom: 0, width: "100%"}}
+    <Carousel variant="dark" style={{position: "absolute", border: "1px solid black",  bottom: 0, width: "100%"}}
     controls={false}
     indicators={true}
     >
