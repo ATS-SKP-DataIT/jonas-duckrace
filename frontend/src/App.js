@@ -16,7 +16,7 @@ import { Donate } from "./modules/Donate/Donate"
 
 function App() {
     return ( 
-	<BrowserRouter basename={"/skp-projekt-aarhus-duck-race"}>
+	<BrowserRouter basename={"/skp-projekt-aarhus-duck-race/docs/"}>
       <Layout>
         <Switch>
           <Route path="/" exact={true} component={Home} />
