@@ -12,7 +12,7 @@ import Logo from "../../assets/img/page-header-duck.png";
 export const Prizes = () => {
   return(
     <div style={{ flex: 1, textAlign: "center", alignItems: "center", justifyContent: "center" }}>
-      <p style={{ marginTop: 20, color: "#000000", fontSize: 25  }}> 
+      <p style={{ marginTop: 20, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto" }}> 
         <img src={Logo} alt="Error"/> Præmier
       </p>
       <Container>

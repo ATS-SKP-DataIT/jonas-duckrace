@@ -6,7 +6,7 @@ import FlagLogo from "../../assets/img/page-header-duck.png";
 export const Purpose = () => {
   return(
     <div style={{ textAlign: "center", flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <p style={{ marginTop: 10, color: "#2B2E34", fontSize: 26 }}>
+      <p style={{ marginTop: 10, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto" }}>
         <img src={FlagLogo} alt="Error"/> Hvad Er Aarhus Duck Race?
       </p>
       <div style={{ fontSize: 16}}>

@@ -6,7 +6,7 @@ import FlagLogo from "../../assets/img/page-header-duck.png";
 export const AboutUs = () => {
   return (
     <div style={{ textAlign:"center", alignItems: "center", justifyContent: "center"}}>
-      <p style={{ marginTop: 5, color: "#2B2E34", fontSize: 25 }}>
+      <p style={{ marginTop: 5, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto"}}>
         <img src={FlagLogo} alt="Error"/> Om os
       </p>
       <div style={{ fontSize: 16 }}>
