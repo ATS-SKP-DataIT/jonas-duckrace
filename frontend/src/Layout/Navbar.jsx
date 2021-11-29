@@ -14,14 +14,14 @@ import Nav from "react-bootstrap/Nav";
 export const Navigation = () => {
   return (
     <>
-      <Navbar className="primary-color NavMain" expand="lg">
+      <Navbar className="primary-color navMain" expand="lg">
         <Container>
-          <Navbar.Brand href="/skp-projekt-aarhus-duck-race">
+          <Navbar.Brand className="homeLogo" href="/skp-projekt-aarhus-duck-race">
             <img 
               src={navLogo}
               width="50"
               height="56"
-              className="homeLogo d-inline-block align-top"
+              className="d-inline-block align-top"
               alt="HomeLogo"
             />
           </Navbar.Brand>
@@ -34,7 +34,7 @@ export const Navigation = () => {
               alt="MenuLogo"
             />
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className="navCollapse">
             <Nav className="me-auto">
               <Nav.Link href="/skp-projekt-aarhus-duck-race/concept">Hvad er Århus Duck Race?</Nav.Link>
               <Nav.Link href="/skp-projekt-aarhus-duck-race/buy">Køb din and her</Nav.Link>
