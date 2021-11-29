@@ -36,13 +36,13 @@ export const Navigation = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/aarhus-duck-race-demo/concept">Hvad er Århus Duck Race?</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/buy">Køb din and her</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/donate">Doner til os her!</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/event">Hvor foregår det?</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/prizes">Præmier</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/purpose">Formål</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/aboutus">Om os</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/concept">Hvad er Århus Duck Race?</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/buy">Køb din and her</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/donate">Doner til os her!</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/event">Hvor foregår det?</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/prizes">Præmier</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/purpose">Formål</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/aboutus">Om os</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
