@@ -43,6 +43,7 @@ export const Navigation = () => {
               <Nav.Link href="/aarhus-duck-race-demo/prizes">Præmier</Nav.Link>
               <Nav.Link href="/aarhus-duck-race-demo/purpose">Formål</Nav.Link>
               <Nav.Link href="/aarhus-duck-race-demo/aboutus">Om os</Nav.Link>
+              <Nav.Link href="/aarhus-duck-race-demo/splash">Test Splash</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

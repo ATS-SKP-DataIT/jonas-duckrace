@@ -1,0 +1,28 @@
+body{
+    background-color: #FCE7A4;
+}
+
+.primary-color{
+    display: none;
+}
+
+.imgSlide{
+    display: none;
+}
+
+.Image{
+    position: relative;
+    text-align: center;
+    margin-top: 50%;
+}
+
+.ATLogo{
+    height: 5%;
+    width: 5%; 
+}
+
+.credit{
+    text-align: center;
+    margin-top: 50%;
+}
+

@@ -3,3 +3,14 @@
     height: 246px;
     background-color: red;
 }
+
+#hideMe{
+    opacity: 1;
+    transition: opacity 0 3s ease-in-out;
+}
+
+#hideMe.hide{
+    display: none;
+}
+
+

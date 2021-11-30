@@ -12,6 +12,7 @@ import { Prizes } from './modules/Prizes/Prizes'
 import { Purpose } from "./modules/Purpose/Purpose"
 import { AboutUs } from "./modules/AboutUs/AboutUs"
 import { Donate } from "./modules/Donate/Donate"
+import { LoadingSplash } from './modules/LoadingSplash/LoadingSplash'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/purpose" exact={true} component={Purpose} />
           <Route path="/AboutUs" exact={true} component={AboutUs} />
           <Route path="/Donate" exact={true} component={Donate} />
+          <Route path="/splash" exact={true} component={LoadingSplash} />
           <Route component={NotFound} />
         </Switch>
       </Layout>
