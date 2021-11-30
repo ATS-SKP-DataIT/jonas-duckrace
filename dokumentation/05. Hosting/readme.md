@@ -1,3 +1,6 @@
+# Ønsker til løsningen
+* 
+
 # Forslag til udbydere
 ## De tre store
 Amazon AWS
