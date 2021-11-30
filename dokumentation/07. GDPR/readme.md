@@ -18,6 +18,10 @@
 # Overførsel af personoplysninger til tredjeland
 Med EU’s dom om at US Privacy Shield er ikke længere er gyldigt, har vi siden 16 juli 2020 ventet på en løsning. Der har været flere møder i EU, så forventningen er stadig, at EU og USA finder en løsning. EU’s udspil er Standard Contractual Clauses (”SCC”), så alt tyder på, at EU vil fastholde sin position. Høringsfristen for denne nye aftale var 10 december 2020, du kan følge udviklingen her. Nogle US baserede firmaer har udvidet deres aftaler med at respektere SCC, desværre har jeg ikke fundet et sted med oversigt over hilse firmaer som har tilsluttet sig SCC.
 
+EU-Domstolen fastslog d. 16 juli 2020 i Schrems II-sagen, at EU-Kommissionens standardkontrakter SCC fortsat er gyldige. Men kun hvis der træffes supplerende foranstaltninger i usikre tredjelande, som f.eks. USA.
+
+Udfordringen er, at ingen kan fortælle os, hvad de “supplerende foranstaltninger” præcis skal være.
+
 # Forslag til GDPR ordlyd
 
 [TODO]
