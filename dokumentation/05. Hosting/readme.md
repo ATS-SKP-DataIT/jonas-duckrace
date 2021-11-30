@@ -21,7 +21,20 @@ Link til service: https://cloud.google.com/
 <img src="image.png" />
 
 ## Andre udbydere
-Heroku
+### Heroku
+#### Fordele
+* Integrerer sig med GitHub
+* Kan benytte CI/CD på GitHub til at validere og deplay med preview app
+* Skalérer hurtigt alt efter behov
+
+#### Ulemper
+* PostgresSQL istedet for MySQL
+* Kan være svært at se prosen for ydelsen
+
+![image](https://user-images.githubusercontent.com/82814155/144017350-ffccb1ac-5c2b-4b39-99a1-c22b25753c8c.png)
+
+
+
 Digital Ocean
 
 ### ScanNet
