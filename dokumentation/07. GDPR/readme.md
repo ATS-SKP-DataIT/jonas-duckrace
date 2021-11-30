@@ -1,4 +1,9 @@
 # GDPR
+Datatilsynet - Nye retningslinjer om behandling af personoplysninger om hjemmesidebesøgende, Dato: 17-02-2020
+https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2020/feb/nye-retningslinjer-om-behandling-af-personoplysninger-om-hjemmesidebesoegende/
+
+
+# GDPR relevant for Aarhus Ducr Race
 * Hvilke person data Aarhus Duck Race gemmer
 * Betingelser for deltagelse i konkurrence
 * Sletning af persondata
@@ -97,4 +102,7 @@ Persondata må ikke gives til kende over for uvedkommende, gå tabt eller blive 
 
 # Forslag til GDPR ordlyd
 
+Aarhus Duck Race videre giver ikke dine informationer til tredje part
+
+Aarhus Duck Race optager, gemmer benytter dine personlige data i forbindelse med køb af and i kapløbet. Denne information er dit bevis for deltagelse i væddeløbet, via den nummererede and. Du vil i forbindelse 
 [TODO]
