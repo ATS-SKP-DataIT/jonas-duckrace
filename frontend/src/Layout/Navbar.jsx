@@ -14,14 +14,14 @@ import Nav from "react-bootstrap/Nav";
 export const Navigation = () => {
   return (
     <>
-      <Navbar className="primary-color NavMain" expand="lg">
+      <Navbar className="primary-color navMain" expand="lg">
         <Container>
-          <Navbar.Brand href="/aarhus-duck-race-demo">
-            <img 
+          <Navbar.Brand className="homeLogo" href="/skp-projekt-aarhus-duck-race">
+            <img
               src={navLogo}
               width="50"
               height="56"
-              className="homeLogo d-inline-block align-top"
+              className="d-inline-block align-top"
               alt="HomeLogo"
             />
           </Navbar.Brand>
@@ -34,16 +34,15 @@ export const Navigation = () => {
               alt="MenuLogo"
             />
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className="navCollapse">
             <Nav className="me-auto">
-              <Nav.Link href="/aarhus-duck-race-demo/concept">Hvad er Århus Duck Race?</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/buy">Køb din and her</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/donate">Doner til os her!</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/event">Hvor foregår det?</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/prizes">Præmier</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/purpose">Formål</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/aboutus">Om os</Nav.Link>
-              <Nav.Link href="/aarhus-duck-race-demo/splash">Test Splash</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/concept">Hvad er Århus Duck Race?</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/buy">Køb din and her</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/donate">Doner til os her!</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/event">Hvor foregår det?</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/prizes">Præmier</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/purpose">Formål</Nav.Link>
+              <Nav.Link href="/skp-projekt-aarhus-duck-race/aboutus">Om os</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
