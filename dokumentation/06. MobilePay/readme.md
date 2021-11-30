@@ -15,8 +15,10 @@ Link til service: https://www.mobilepay.dk/erhverv/apps-og-webshops
 3. Godkend betalingen med et swipe
 4. MobilePay skifter tilbage til appen
 
-
 ## Tjek af betaling
+Der følger et Dashboard med konto til MobilePay ydelsen.
+Se mere på: Selvbetjening via MobilePay-portalen, https://www.mobilepay.dk/erhverv/mobilepay-portalen
+
 ## Økonomi
 Pris for MobilePay til app-betalinger
 Oprettelse (momsfri)
