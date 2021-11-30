@@ -8,6 +8,17 @@ Link til service: https://www.mobilepay.dk/erhverv/apps-og-webshops
 ![image](https://user-images.githubusercontent.com/82814155/144023988-abaeecf5-ce41-479c-ac33-7600c95bb837.png)
 
 ## Callback
+Styring af handlinger og beskeder via POST eller GET request
+
+Tænk på det som et brev. Nogle gange får du et brev som beder dig om at udfylde en formular og derefter returnere formularen i en forudadresseret konvolut, som er i den originale konvolut, der indeholdt formularen.
+
+Når du er færdig med at udfylde formularen, lægger du den i den medfølgende returkuvert og sender den tilbage.
+
+Callback-URL'en er som den returkuvert. Du siger dybest set, "Jeg sender dig disse data; når du er færdig med dem, lytter jeg på denne tilbagekalds-URL og venter på dit svar." Så API'en vil behandle de data, du har sendt, og se derefter på tilbagekaldet for at sende dig svaret.
+
+Dette er nyttigt, fordi det nogle gange kan tage evigheder at behandle nogle data, og det giver ingen mening at lade den, der ringer, vente på et svar. Lad os for eksempel sige, at din API tillader brugere at sende dokumenter til den og virusscanne dem. Så sender du en rapport efter. Scanningen kan tage måske 3 minutter. Brugeren kan ikke vente i 3 minutter. Så du anerkender, at du har fået dokumentet og lader den, der ringer, komme videre med andre forretninger, mens du laver scanningen, og brug derefter tilbagekalds-URL'en, når du er færdig, til at fortælle dem resultatet af scanningen.
+
+Det ser ud som om at MobilePay understøtter Callback-url, så man kan sende besked til kunden.
 
 ## Transaktioner
 1. Vælg 'Betal med MobilePay' i virksomhedens app
