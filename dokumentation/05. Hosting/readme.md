@@ -29,3 +29,6 @@ Digital Ocean
 
 Link til service: https://www.scannet.dk/cloud-server/?gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WgZgMNsszdXXmPLHT71NdG1W-P--srxxQBn5fInzI6tdqWMAUHN2l8aAi5pEALw_wcB
 
+### Cloudservice.dk
+
+Link til service: https://cloudservers.dk/
