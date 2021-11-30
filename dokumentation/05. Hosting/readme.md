@@ -34,7 +34,11 @@ Link til service: https://cloud.google.com/
 ![image](https://user-images.githubusercontent.com/82814155/144017350-ffccb1ac-5c2b-4b39-99a1-c22b25753c8c.png)
 
 
-Digital Ocean
+### Digital Ocean
+Slår sig frem på at skulle være simplere end eks. AWS
+
+![image](https://user-images.githubusercontent.com/82814155/144020680-71669b4d-449e-40df-97f9-f1c73182f28a.png)
+
 
 ### ScanNet
 ![image](https://user-images.githubusercontent.com/82814155/144011016-9d7750e2-0bb6-44d3-a053-f5d091cefb1a.png)
