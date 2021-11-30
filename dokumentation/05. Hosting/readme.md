@@ -44,7 +44,7 @@ De sælger sig selv på at være 18% billigere end Google Cloud.
 
 #### Ulemper
 * Kan være svær at overskue
-* 
+
 ![image](https://user-images.githubusercontent.com/82814155/144020680-71669b4d-449e-40df-97f9-f1c73182f28a.png)
 
 
