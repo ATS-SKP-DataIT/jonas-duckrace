@@ -15,6 +15,9 @@
 4. Tænk “slette politik” ind allerede ved implementering af en løsning.
 5. Husk at overholde dine slettefrister, ellers kan det blive dyrt.
 
+# Overførsel af personoplysninger til tredjeland
+Med EU’s dom om at US Privacy Shield er ikke længere er gyldigt, har vi siden 16 juli 2020 ventet på en løsning. Der har været flere møder i EU, så forventningen er stadig, at EU og USA finder en løsning. EU’s udspil er Standard Contractual Clauses (”SCC”), så alt tyder på, at EU vil fastholde sin position. Høringsfristen for denne nye aftale var 10 december 2020, du kan følge udviklingen her. Nogle US baserede firmaer har udvidet deres aftaler med at respektere SCC, desværre har jeg ikke fundet et sted med oversigt over hilse firmaer som har tilsluttet sig SCC.
+
 # Forslag til GDPR ordlyd
 
 [TODO]
