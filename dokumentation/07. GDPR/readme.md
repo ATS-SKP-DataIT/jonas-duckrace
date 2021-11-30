@@ -6,6 +6,7 @@
 * Der laves en side med oplysninger
 * Behandling af personoplysninger om hjemmesidebesøgende (cookies)
 * Man skal beskrive enhver hændelse, der involverer personhenførbare oplysninger
+* Man skal beskrive hvorfor man vælger den sletteregel man nu vælger.
 * Kontrol med databehandlere
 
 # 5 gode råd
