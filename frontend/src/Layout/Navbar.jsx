@@ -14,8 +14,8 @@ import Nav from "react-bootstrap/Nav";
 export const Navigation = () => {
   return (
     <>
-      <Navbar className="primary-color navMain" expand="lg">
-        <Container>
+      <Navbar id="navbar" className="primary-color navMain" expand="lg">
+        <Container id="container">
           <Navbar.Brand className="homeLogo" href="/skp-projekt-aarhus-duck-race">
             <img
               src={navLogo}
