@@ -1,0 +1,3 @@
+Forslag til GDPR
+
+[TODO]
