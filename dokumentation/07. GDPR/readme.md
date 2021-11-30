@@ -5,7 +5,8 @@
 * Udløb af persondata
 * Der laves en side med oplysninger
 * Behandling af personoplysninger om hjemmesidebesøgende (cookies)
-* Man skal beskrive enhver hændelse, der involverer personhenførbare oplysninger.
+* Man skal beskrive enhver hændelse, der involverer personhenførbare oplysninger
+* Kontrol med databehandlere
 
 # 5 gode råd
 1. Brug aldrig telefon eller CPR som unik KundeID, hvis ikke det kan slettes igen i dit system.
