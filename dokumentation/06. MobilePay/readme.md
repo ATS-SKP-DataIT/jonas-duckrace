@@ -18,6 +18,13 @@ Link til service: https://www.mobilepay.dk/erhverv/apps-og-webshops
 
 ## Tjek af betaling
 ## Økonomi
+Pris for MobilePay til app-betalinger
+Oprettelse (momsfri)
+999,00kr.
+
+Pris pr. transaktion
+1% af transaktionsbeløbet, dog min. 1,00 kr. Prisen er momsfri. Vælger du månedlig fakturering, er der et gebyr på 29 kr. (ekskl. moms) pr. faktura (momssatsen er 25%). 
+Du betaler kun oprettelse, hvis du ikke er MobilePay-erhvervskunde i forvejen (beløbet er momsfrit). Bemærk, som MobilePay Online-kunde er du oprettet hos din PSP. Du betaler derfor 999 kr., når du opretter dig hos os første gang.
 
 # MobilePay API
 ![image](https://user-images.githubusercontent.com/82814155/144024621-28c51516-25b3-4223-9ef6-00de1303d409.png)
