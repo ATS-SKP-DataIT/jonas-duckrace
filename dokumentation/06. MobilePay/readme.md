@@ -10,6 +10,12 @@ Link til service: https://www.mobilepay.dk/erhverv/apps-og-webshops
 ## Callback
 
 ## Transaktioner
+1. Vælg 'Betal med MobilePay' i virksomhedens app
+2. Din app skifter til MobilePay
+3. Godkend betalingen med et swipe
+4. MobilePay skifter tilbage til appen
+
+
 ## Tjek af betaling
 ## Økonomi
 
