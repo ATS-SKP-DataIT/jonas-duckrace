@@ -7,12 +7,19 @@ Link til service: https://www.mobilepay.dk/erhverv/apps-og-webshops
 ## Betragtninger i forhold til app
 ![image](https://user-images.githubusercontent.com/82814155/144023988-abaeecf5-ce41-479c-ac33-7600c95bb837.png)
 
+## Callback
+
 ## Transaktioner
 ## Tjek af betaling
-## Callback
 ## Økonomi
 
 # MobilePay API
 ![image](https://user-images.githubusercontent.com/82814155/144024621-28c51516-25b3-4223-9ef6-00de1303d409.png)
 
 [TODO]
+
+## Betingelser for at bruge MobilePay
+Fra websiden:<br />
+For at få MobilePay til app-betalinger er det et krav, at dine varer eller services bruges uden for dit app-univers. For eksempel hvis du sælger billetter, transport eller leje af skabe.
+
+Så er det på plads. Nu skal du oprette dig som kunde på MobilePay-portalen. Her vælger du MobilePay til app-betalinger, og så er næste skridt at integrere dit system med MobilePay. Se mere i vores dokumentation på developer.mobilepay.dk - vores udvikler-support er altid klar til at hjælpe dig.
