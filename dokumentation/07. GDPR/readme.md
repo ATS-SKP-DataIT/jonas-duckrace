@@ -1,8 +1,5 @@
 # GDPR
-Datatilsynet - Nye retningslinjer om behandling af personoplysninger om hjemmesidebesøgende, Dato: 17-02-2020
-https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2020/feb/nye-retningslinjer-om-behandling-af-personoplysninger-om-hjemmesidebesoegende/
-
-## Fra deres webside: Hvad er nyt?
+## Datatilsynet - Fra deres webside: Hvad er nyt?
 Hvis du som organisation behandler personoplysninger om dine hjemmesidebesøgende, vil det ofte være med samtykke som det retlige grundlag. For at sådan et samtykke kan anses for at være gyldigt efter GDPR, skal det opfylde en række krav. Det skal blandet andet:
 
 * Det skal være et aktivt tilvalg, når en besøgende på din hjemmeside giver lov til, at vedkommendes oplysninger behandles
@@ -11,6 +8,10 @@ Hvis du som organisation behandler personoplysninger om dine hjemmesidebesøgend
 * Det skal være nemt ikke at give samtykke - også rent visuelt
 * Desuden skal du kunne dokumentere, hvad en besøgende har givet samtykke til - og hvordan samtykket er indhentet
 citat slut
+
+Datatilsynet - Nye retningslinjer om behandling af personoplysninger om hjemmesidebesøgende, Dato: 17-02-2020
+https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2020/feb/nye-retningslinjer-om-behandling-af-personoplysninger-om-hjemmesidebesoegende/
+
 
 # GDPR relevant for Aarhus Ducr Race
 * Hvilke person data Aarhus Duck Race gemmer
