@@ -9,7 +9,7 @@ Hvis du som organisation behandler personoplysninger om dine hjemmesidebesøgend
 * Desuden skal du kunne dokumentere, hvad en besøgende har givet samtykke til - og hvordan samtykket er indhentet
 citat slut
 
-Datatilsynet - Nye retningslinjer om behandling af personoplysninger om hjemmesidebesøgende, Dato: 17-02-2020
+### Datatilsynet - Nye retningslinjer om behandling af personoplysninger om hjemmesidebesøgende, Dato: 17-02-2020
 https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2020/feb/nye-retningslinjer-om-behandling-af-personoplysninger-om-hjemmesidebesoegende/
 
 
