@@ -6,7 +6,7 @@ import Location from "../../assets/img/PlaceholderEmmet.png"
 export const Event = () => {
   return (
     <div style={{ flex: 1, textAlign: "center", alignItems: "center", justifyContent: "center" }}>
-      <p style={{ marginTop: 5, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto"  }}> 
+      <p style={{ marginTop: 10, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto"  }}> 
         <img src={WhereLogo} alt="Error"/> Hvor foregår racet?
       </p>
       <div>

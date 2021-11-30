@@ -6,7 +6,7 @@ import TextLogo from "../../assets/img/stor-and.png";
 export const Donate = () => {
   return (
     <div style={{margin: "5%"}}>
-      <p style={{ textAlign: "center", marginTop: 5, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto"}}> 
+      <p style={{ textAlign: "center", marginTop: 10, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto"}}> 
          Doner til os her!
       </p>
       <div style={{marginTop: "20%"}}>

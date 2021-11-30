@@ -6,7 +6,7 @@ import TextLogo from "../../assets/img/stor-and.png";
 export const Buy = () => {
   return (
     <div style={{margin: "5%"}}>
-      <p style={{ textAlign: "center", marginTop: 5, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto"  }}> 
+      <p style={{ textAlign: "center", marginTop: 10, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto"  }}> 
          Køb din and her!
       </p>
       <img src={TextLogo} alt="Error" style={{width: "50%", float: "left"}}/>
