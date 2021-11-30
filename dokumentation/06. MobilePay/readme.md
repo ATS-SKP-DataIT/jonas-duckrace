@@ -40,10 +40,8 @@ Så er det på plads. Nu skal du oprette dig som kunde på MobilePay-portalen. H
 Når man er tilmeldt service, kan man få opstillet en sandkasse til udviklingen:
 In order to integrate our App Payments solution you need to sign up to the product in our Merchant Portal. When/if you have an agreement with us we can invite you to our sandbox. Contact developer@mobilepay.dk to get access.
 
-## FAQ - AppSwitch
+## AppSwitch
+Her er reference til hvordan man bruger og tester appen med understøttelse for MobilePay.
 
 Kilde: https://developer.mobilepay.dk/faq/appswitch
-
-
-[TODO]
 
