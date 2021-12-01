@@ -114,5 +114,5 @@ Persondata må ikke gives til kende over for uvedkommende, gå tabt eller blive 
 
 Aarhus Duck Race videre giver ikke dine informationer til tredje part
 
-Aarhus Duck Race optager, gemmer benytter dine personlige data i forbindelse med køb af and i kapløbet. Denne information er dit bevis for deltagelse i væddeløbet, via den nummererede and. Du vil i forbindelse 
+Aarhus Duck Race optager, gemmer og benytter dine personlige data i forbindelse med køb af and i kapløbet. Denne information er dit bevis for deltagelse i væddeløbet, via den nummererede and.<br />
 [TODO]
