@@ -112,7 +112,7 @@ Persondata må ikke gives til kende over for uvedkommende, gå tabt eller blive 
 
 # Forslag til konkurrencebetingelser 
 Godkend konkurrencebetingelserne * <br />
-For at deltage i denne konkurrence skal du godkende følgende konkurrencebetingelser: Du skal være 18 år eller derover. Ansatte i Aarhus Duck Race samt deres husstande må ikke deltage. Konkurrencen slutter d. 1. maj 2022, og du kan kun deltage online. Vinderene findes udmiddelbart efter løbets afslutning og får direkte besked. Hvis vi ikke modtager bekræftelse fra vinderen i løbet af tre dage efter, der er taget kontakt, forbeholder vi os retten til at trække en ny vinder. <br />
+For at deltage i denne konkurrence skal du godkende følgende konkurrencebetingelser: Du skal være 18 år eller derover. Ansatte i Aarhus Duck Race samt deres husstande må ikke deltage. Konkurrencen slutter d. 1. maj 2022 og du kan kun deltage online. Vinderene findes udmiddelbart efter løbets afslutning og får direkte besked. Hvis vi ikke modtager bekræftelse fra vinderen i løbet af tre dage efter, der er taget kontakt, forbeholder vi os retten til at trække en ny vinder. <br />
 <i>Evt.</i><br />
 Efter kontakt med vinderen offentliggøres navn og by på aarhusduckrace.dk og evt. Facebook. Der er ikke reklamationsret på præmier, og de kan ikke ombyttes til kontanter.<br />
 
@@ -124,5 +124,9 @@ Aarhus Duck Race optager, gemmer og benytter dine personlige data i forbindelse 
 
 Telefonnr. (bruges udelukkende til kontakt, hvis man er vinder af konkurrencen)
 
+Dine data slettes senest ...
 
+Ønsker du at slette dine oplysninger ...
+
+Dataudbyder ...
 [TODO]
