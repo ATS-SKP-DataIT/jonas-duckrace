@@ -5,6 +5,7 @@
 * Prisen for trafik og service
 * Skalerbar - så automatisk som muligt
 * Kan lukkes efter en valgt periode
+* Skal være i en region som ikke overtræder GDPR ( ... læs ikke USA)
 
 # Forslag til udbydere
 ## De tre store
