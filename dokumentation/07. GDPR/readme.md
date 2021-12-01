@@ -112,7 +112,7 @@ Persondata må ikke gives til kende over for uvedkommende, gå tabt eller blive 
 
 # Forslag til GDPR ordlyd
 
-Aarhus Duck Race videre giver ikke dine informationer til tredje part
+Aarhus Duck Race videregiver ikke dine informationer til tredje part. Undtaget herfra er betaling via MobilePay.
 
 Aarhus Duck Race optager, gemmer og benytter dine personlige data i forbindelse med køb af and i kapløbet. Denne information er dit bevis for deltagelse i væddeløbet, via den nummererede and.<br />
 [TODO]
