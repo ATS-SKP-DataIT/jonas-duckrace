@@ -15,7 +15,7 @@ Link til service: https://aws.amazon.com/free/
 Link til service: https://cloud.google.com/
 
 ### Microsoft Azure - ScanNet
-
+ [Se nedenstående](#ScanNet)
 
 ## Pris sammenligning mellem cloud løsninger
 <img src="image.png" />
@@ -47,7 +47,7 @@ De sælger sig selv på at være 18% billigere end Google Cloud.
 
 ![image](https://user-images.githubusercontent.com/82814155/144020680-71669b4d-449e-40df-97f9-f1c73182f28a.png)
 
-
+<a name="ScanNet" />
 ### ScanNet
 ![image](https://user-images.githubusercontent.com/82814155/144011016-9d7750e2-0bb6-44d3-a053-f5d091cefb1a.png)
 
