@@ -54,12 +54,14 @@ De sælger sig selv på at være 18% billigere end Google Cloud.
 Link til service: https://www.scannet.dk/cloud-server/?gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WgZgMNsszdXXmPLHT71NdG1W-P--srxxQBn5fInzI6tdqWMAUHN2l8aAi5pEALw_wcB
 
 ### Cloudservice.dk
-Cloudservers holder til i Aarhus.
-Med base i centrum af Aarhus har vi siden 1998 været førende indenfor Cloudhosting.
-
-Cloudservers A/S
-Åbogade 15
-8200 Aarhus N
-CVR: 26616409
-
+Cloudservers holder til i Aarhus.<br />
+Med base i centrum af Aarhus har vi siden 1998 været førende indenfor Cloudhosting.<br />
+<br />
+Cloudservers A/S<br />
+Åbogade 15<br />
+8200 Aarhus N<br />
+CVR: 26616409<br />
+<br />
 Link til service: https://cloudservers.dk/
+
+
