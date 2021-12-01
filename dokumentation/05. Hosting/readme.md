@@ -63,6 +63,12 @@ Cloudservers A/S<br />
 8200 Aarhus N<br />
 CVR: 26616409<br />
 <br />
+#### Fordele
+* Dansk firma
+* Ubuntu server, som er den mest enkle løsning
+* Support
+
+
 Link til service: https://cloudservers.dk/
 
 
