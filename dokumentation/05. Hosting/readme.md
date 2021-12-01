@@ -62,6 +62,6 @@ Cloudservers A/S<br />
 8200 Aarhus N<br />
 CVR: 26616409<br />
 <br />
-Link til service: https://cloudservers.dk/
+Link til service: [https://cloudservers.dk/]https://cloudservers.dk/
 
 
