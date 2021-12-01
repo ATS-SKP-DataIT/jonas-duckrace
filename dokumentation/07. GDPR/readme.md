@@ -1,7 +1,6 @@
 # GDPR
 ## Cookiebot
-Du har sikkert set dem på de større webside, med tilladelse af cookies. De har en rigtig god side som hurtigt forklarer hvad GDPR er og hvad for konsekvenser det har for websider.<br />
-[Cookiebot - Hvad er GDPR?](https://www.cookiebot.com/da/gdpr/)
+Du har sikkert set dem på de større webside, med tilladelse af cookies. De har en rigtig god side som hurtigt forklarer hvad GDPR er og hvad for konsekvenser det har for websider. [Cookiebot - Hvad er GDPR?](https://www.cookiebot.com/da/gdpr/)
 
 ## Datatilsynet - Fra deres webside: Hvad er nyt?
 Hvis du som organisation behandler personoplysninger om dine hjemmesidebesøgende, vil det ofte være med samtykke som det retlige grundlag. For at sådan et samtykke kan anses for at være gyldigt efter GDPR, skal det opfylde en række krav. Det skal blandet andet:
