@@ -1,4 +1,8 @@
 # GDPR
+## Cookiebot
+Du har sikkert set dem på de større webside, med tilladelse af cookies. De har en rigtig god side som hurtigt forklarer hvad GDPR er og hvad for konsekvenser det har for websider.<br />
+[Cookiebot - Hvad er GDPR?]https://www.cookiebot.com/da/gdpr/
+
 ## Datatilsynet - Fra deres webside: Hvad er nyt?
 Hvis du som organisation behandler personoplysninger om dine hjemmesidebesøgende, vil det ofte være med samtykke som det retlige grundlag. For at sådan et samtykke kan anses for at være gyldigt efter GDPR, skal det opfylde en række krav. Det skal blandet andet:
 
@@ -13,7 +17,7 @@ citat slut
 https://www.datatilsynet.dk/presse-og-nyheder/nyhedsarkiv/2020/feb/nye-retningslinjer-om-behandling-af-personoplysninger-om-hjemmesidebesoegende/
 
 
-# GDPR relevant for Aarhus Ducr Race
+# GDPR relevant for Aarhus Duck Race
 * Hvilke person data Aarhus Duck Race gemmer
 * Betingelser for deltagelse i konkurrence
 * Sletning af persondata
