@@ -4,13 +4,12 @@
     background-color: red;
 }
 
-#hideMe{
-    opacity: 1;
-    transition: opacity 0 3s ease-in-out;
+.splash{
+    position: absolute;
 }
 
-#hideMe.hide{
-    display: none;
+.homePage{
+    margin-top: 0px;
 }
 
 

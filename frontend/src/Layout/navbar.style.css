@@ -18,13 +18,18 @@ body{
     margin: 0px; 
 }
 
+
 .navCollapse{
     text-align: center;
     font-family: "Roboto";
     background-color: #FCE7A4;
-    font-size: 26px;
+    font-size: 40px;
     min-height: 400vh;
 }
+
+
+
+
 
 #navbar{
         display: flex;

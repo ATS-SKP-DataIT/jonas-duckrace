@@ -12,7 +12,7 @@ export const Sponsors = () => {
 
     {Sponser.map(Sponsor => {
       return(
-        <Carousel.Item>
+        <Carousel.Item key={Sponsor.id}>
             <img
               className="d-block w-100"
               src={Sponsor.Image}

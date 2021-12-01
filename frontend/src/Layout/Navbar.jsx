@@ -21,6 +21,7 @@ export const Navigation = () => {
               src={navLogo}
               width="50"
               height="56"
+              id="logo"
               className="d-inline-block align-top"
               alt="HomeLogo"
             />
