@@ -6,7 +6,7 @@ from .postgressql import postgressql
 from .fastapi import fastapi
 from .yarn import yarn
 
-
+print("Startet __main__")
 @click.command()
 @click.argument('env')
 @click.argument('option', required=False)
