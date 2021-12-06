@@ -25,7 +25,7 @@ def main(env, option, action):
     elif env == "yarn":
         yarn(option, action)
     else:
-        print("fuck af")
+        print("Kunne ikke afkode action for scriptet")
 
 
 if __name__ == '__main__':
