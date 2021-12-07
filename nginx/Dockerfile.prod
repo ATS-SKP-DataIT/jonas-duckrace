@@ -1,6 +1,7 @@
 FROM node:alpine as build
 
-WORKDIR /frontend
+WORKDIR /frontend/
+RUN echo Hello World!
 
 COPY ./frontend/package.json ./
 COPY ./frontend/yarn.lock ./
