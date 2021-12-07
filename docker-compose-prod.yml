@@ -3,7 +3,7 @@ version: '3.7'
 services:
   nginx: 
     restart: always
-    container_name: nginx_bue_prod
+    container_name: nginx_adr_prod
     build:
       context: .
       dockerfile: ./nginx/Dockerfile.prod
@@ -33,8 +33,8 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_USER=bue_strenge_gemmer
-      - POSTGRES_PASSWORD=bue_strenge_gemmer
-      - POSTGRES_DB=bue_strenge_gemmer_prod
+      - POSTGRES_USER=guest
+      - POSTGRES_PASSWORD=guest
+      - POSTGRES_DB=notes
 volumes:
   postgres_data:
