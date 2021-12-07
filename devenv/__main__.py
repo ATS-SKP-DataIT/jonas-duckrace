@@ -6,7 +6,7 @@ from .postgressql import postgressql
 from .fastapi import fastapi
 from .yarn import yarn
 
-
+print("Startet __main__")
 @click.command()
 @click.argument('env')
 @click.argument('option', required=False)
@@ -25,7 +25,7 @@ def main(env, option, action):
     elif env == "yarn":
         yarn(option, action)
     else:
-        print("fuck af")
+        print("Kunne ikke afkode action for scriptet")
 
 
 if __name__ == '__main__':
