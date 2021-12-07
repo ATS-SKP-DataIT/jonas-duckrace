@@ -7,6 +7,7 @@ Docker, Python, Yarn, pip, Typescript, Node<br />
 ```sudo apt install python3-pip```<br />
 ```sudo npm install --global yarn```<br />
 ```git clone https://github.com/ATS-SKP-DataIT/skp-projekt-aarhus-duck-race.git```<br />
+```yarn add react-spring```<br />
 
 # Localhost url
 
