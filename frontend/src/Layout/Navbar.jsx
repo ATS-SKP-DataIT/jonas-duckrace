@@ -16,7 +16,7 @@ export const Navigation = () => {
     <>
       <Navbar id="navbar" className="primary-color navMain" expand="lg">
         <Container id="container">
-          <Navbar.Brand className="homeLogo" href="/skp-projekt-aarhus-duck-race">
+          <Navbar.Brand className="homeLogo" href="./">
             <img
               src={navLogo}
               width="50"
