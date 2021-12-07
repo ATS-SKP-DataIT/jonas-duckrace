@@ -21,7 +21,7 @@ pip3 install -e .
 
 # CLI COMMANDS
 
-## Devlopment envirment CLI
+## Devlopment enviroment CLI
 
 build/up dev env ```devenv dev start```
 
