@@ -17,7 +17,7 @@ import { LoadingSplash } from './modules/LoadingSplash/LoadingSplash'
 
 function App() {
     return ( 
-	<BrowserRouter basename={"/skp-projekt-aarhus-duck-race/"}>
+	<BrowserRouter base name={"/skp-projekt-aarhus-duck-race/"}>
       <Layout>
         <Switch>
           <Route path="/" exact={true} component={Home} />
