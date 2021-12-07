@@ -1,9 +1,11 @@
 # Aarhus-Duck-Race-Demo
 Aarhus-Duck-Race-Demo
 
-# Tools Requirments
+# Tools requirements
 
 Docker, Python, Yarn, pip, Typescript, Node
+<code>sudo npm install --global yarn</code>
+<code>git clone https://github.com/ATS-SKP-DataIT/skp-projekt-aarhus-duck-race.git</code>
 
 # Localhost url
 
