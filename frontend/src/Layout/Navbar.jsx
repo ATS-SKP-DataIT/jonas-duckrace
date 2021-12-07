@@ -16,7 +16,7 @@ export const Navigation = () => {
     <>
       <Navbar id="navbar" className="primary-color navMain" expand="lg">
         <Container id="container">
-          <Navbar.Brand className="homeLogo" href="./">
+          <Navbar.Brand className="homeLogo" href="/">
             <img
               src={navLogo}
               width="50"
@@ -37,7 +37,7 @@ export const Navigation = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav" className="navCollapse">
             <Nav className="me-auto">
-              <Nav.Link href="/concept">Hvad er Århus Duck Race?</Nav.Link>
+              <Nav.Link href="concept">Hvad er Århus Duck Race?</Nav.Link>
               <Nav.Link href="/buy">Køb din and her</Nav.Link>
               <Nav.Link href="/donate">Doner til os her!</Nav.Link>
               <Nav.Link href="/event">Hvor foregår det?</Nav.Link>
