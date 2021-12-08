@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/skp-projekt-aarhus-duck-race">
-      <App />
-    </BrowserRouter>
+    <Router>
+    <Navbar />
+    <App />
+    <Sponsor />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
