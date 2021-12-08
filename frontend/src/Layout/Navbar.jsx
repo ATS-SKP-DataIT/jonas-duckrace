@@ -1,5 +1,6 @@
 // Basics Import
 import React from "react";
+
 import "./navbar.style.css";
 
 // Billeder
@@ -17,6 +18,7 @@ export const Navigation = () => {
       <Navbar id="navbar" className="primary-color navMain" expand="lg">
         <Container id="container">
           <Navbar.Brand className="homeLogo" href="/">
+            <a className="navbar-brand" href="/">
             <img
               src={navLogo}
               width="50"
@@ -25,6 +27,7 @@ export const Navigation = () => {
               className="d-inline-block align-top"
               alt="HomeLogo"
             />
+            </a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <img
