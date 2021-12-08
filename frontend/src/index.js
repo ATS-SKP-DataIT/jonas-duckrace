@@ -4,7 +4,7 @@ import App from './App';
 import { Navigation as Navbar } from './Layout/Navbar';
 import { Sponsors as Sponsor } from './components/Sponsors/Sponsors';
 import './index.css';
-
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,4 +14,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
