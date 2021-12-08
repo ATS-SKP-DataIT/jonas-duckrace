@@ -10,4 +10,4 @@ def docker_container(command, action):
     elif action == "db":
         subprocess.run(["sudo", "docker", command, "frontend_dev"])
     else:
-        click.echo("DET FADME IKKE EN DOCKER CONTAINER")
+        click.echo("Kunne ikke genkende kommando som container!")

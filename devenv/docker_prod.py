@@ -16,4 +16,4 @@ def docker_prod(self):
         subprocess.run(
             ["sudo", "docker-compose", "-f", "docker-compose-prod.yml", "up"])
     else:
-        click.echo("DET FADME IKKE EN DOCKER COMMAND")
+        click.echo("Ikke forstået Docker kommando!")
