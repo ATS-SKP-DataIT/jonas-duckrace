@@ -1,17 +1,17 @@
 FROM node:alpine as build
 
-WORKDIR /frontend/
-RUN echo Hello World!
+# WORKDIR /frontend/
+# RUN echo Hello World!
 
-COPY ./frontend/package.json ./
-COPY ./frontend/yarn.lock ./
+# COPY ./frontend/package.json ./
+# COPY ./frontend/yarn.lock ./
 
-RUN yarn
+# RUN yarn
 
-COPY ./frontend/ ./
+# COPY ./frontend/ ./
 
-RUN yarn build
+# RUN yarn build
 
-FROM nginx:alpine
-COPY --from=build /frontend/build /usr/share/nginx/html
+# FROM nginx:alpine
+# COPY --from=build /frontend/build /usr/share/nginx/html
 CMD ["nginx", "-g", "daemon off;"]
