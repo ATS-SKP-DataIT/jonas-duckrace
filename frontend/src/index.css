@@ -13,7 +13,7 @@
     background-color: #efa80a;
 }
 
-App{
+body{
     background-color: #FFF7CD;
 }
 
@@ -45,7 +45,7 @@ App{
         font-family: "Roboto";
         font-size: 30px;
         min-height: 1024px;
-        
+
         width: 768px;
         overflow: scroll;
     }
@@ -72,7 +72,7 @@ App{
         min-height: 1024px;
         min-width: 1005;
     }
-    
+
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -98,5 +98,5 @@ App{
         overflow: scroll;
         overflow-x: hidden;
     }
-    
+
  }
