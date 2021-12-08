@@ -65,16 +65,38 @@ body{
 
  }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+ @media only screen and (min-width: 1024px) {
     .navCollapse{
         text-align: center;
         font-family: "Roboto";
         background-color: #FCE7A4;
         font-size: 40px;
-        min-height: 1200px;
+        min-height: 1024px;
+        min-width: 1005;
     }
     
+ }
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navCollapse{
+        display: none !important;
+        text-align: center;
+        font-family: "Roboto";
+        background-color: #EFA80A;
+        font-size: 25px;
+        min-height: 0px;
+        float: right;
+    }
+    Navbar{
+        min-width: 1200px;
+    }
+    a{
+        position: relative;
+    }
+
  }
 
 
