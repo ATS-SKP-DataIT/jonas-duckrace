@@ -6,7 +6,6 @@ export default makeStyles((theme) => ({
     },
     title:{
         textAlign: "center",
-        marginTop: 10,
         color: "#2B2E34",
         fontSize: 25,
         fontFamily: "Roboto"
@@ -15,7 +14,8 @@ export default makeStyles((theme) => ({
         marginTop: "20%"
     },
     textLogo:{
-        width: "50%",
+        width: "40vw",
+        maxWidth: "350px", 
         float: "left"
     },
     inputAntal:{
