@@ -13,6 +13,7 @@ import { Purpose } from "./modules/Purpose/Purpose"
 import { AboutUs } from "./modules/AboutUs/AboutUs"
 import { Donate } from "./modules/Donate/Donate"
 import { LoadingSplash } from './modules/LoadingSplash/LoadingSplash'
+import { Signup } from './modules/userCreation/Signup'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/AboutUs" component={AboutUs} />
           <Route exact path="/Donate" component={Donate} />
           <Route exact path="/splash" component={LoadingSplash} />
+          <Route exact path="/signup" component={Signup} />
           <Route component={NotFound} />
         </Switch>
       </Layout>
