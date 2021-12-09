@@ -48,22 +48,22 @@ export const Navigation = () => {
           <MenuItem className={classes.menuItem}>
             <Typography className={classes.link} component={Link} to="/concept">Hvad er Århus Duck Race?</Typography>
           </MenuItem>
-          <MenuItem>
+          <MenuItem className={classes.menuItem}>
             <Typography className={classes.link} component={Link} to="/buy">Køb din and her</Typography>
           </MenuItem>
-          <MenuItem>
+          <MenuItem className={classes.menuItem}>
             <Typography className={classes.link} component={Link} to="/donate">Donér til os her</Typography>
           </MenuItem>
-          <MenuItem>
+          <MenuItem className={classes.menuItem}>
             <Typography className={classes.link} component={Link} to="/event">Hvor foregår det?</Typography>
           </MenuItem>
-          <MenuItem>
+          <MenuItem className={classes.menuItem}>
             <Typography className={classes.link} component={Link} to="/prizes">Præmier</Typography>
           </MenuItem>
-          <MenuItem>
+          <MenuItem className={classes.menuItem}>
             <Typography className={classes.link} component={Link} to="/purpose">Formål</Typography>
           </MenuItem>
-          <MenuItem>
+          <MenuItem className={classes.menuItem}>
             <Typography className={classes.link} component={Link} to="/aboutus">Om os</Typography>
           </MenuItem>
 

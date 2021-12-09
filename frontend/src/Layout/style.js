@@ -21,5 +21,10 @@ export default makeStyles((theme) => ({
     },
     hiddenMenu: {
         display: "none"
-    }
+    },
+    [theme.breakpoints.up('sm')]: {
+        menuItem: {
+            display: "none"
+        }
+      }
 }));
