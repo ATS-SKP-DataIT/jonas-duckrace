@@ -1,13 +1,9 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-import AccountCircle from '@mui/icons-material/AccountCircle';
-import Switch from '@mui/material/Switch';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import FormGroup from '@mui/material/FormGroup';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
 import { Link } from 'react-router-dom';
@@ -18,8 +14,13 @@ import useStyles from './style';
 
 
 export const Navigation = () => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [burgerShow, setBurgerShow] = useState(null);
   const classes = useStyles()
+
+    if (window.innerWidth <= 760){
+        setBurgerShow(classes.image)
+    }
 
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
@@ -44,6 +45,28 @@ export const Navigation = () => {
           >
             <img src={homeLogo} alt="homeLogo" className={classes.image} />
           </IconButton>
+          <MenuItem className={classes.menuItem}>
+            <Typography className={classes.link} component={Link} to="/concept">Hvad er Århus Duck Race?</Typography>
+          </MenuItem>
+          <MenuItem>
+            <Typography className={classes.link} component={Link} to="/buy">Køb din and her</Typography>
+          </MenuItem>
+          <MenuItem>
+            <Typography className={classes.link} component={Link} to="/donate">Donér til os her</Typography>
+          </MenuItem>
+          <MenuItem>
+            <Typography className={classes.link} component={Link} to="/event">Hvor foregår det?</Typography>
+          </MenuItem>
+          <MenuItem>
+            <Typography className={classes.link} component={Link} to="/prizes">Præmier</Typography>
+          </MenuItem>
+          <MenuItem>
+            <Typography className={classes.link} component={Link} to="/purpose">Formål</Typography>
+          </MenuItem>
+          <MenuItem>
+            <Typography className={classes.link} component={Link} to="/aboutus">Om os</Typography>
+          </MenuItem>
+
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             
           </Typography>

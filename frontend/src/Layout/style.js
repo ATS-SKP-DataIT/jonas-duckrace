@@ -11,5 +11,15 @@ export default makeStyles((theme) => ({
     },
     image: {
         marginRight: "10px"
+    },
+    link: {
+        textDecoration: "none",
+        color: "white",
+    },
+    menuItem: {
+        textDecoration: "none"
+    },
+    hiddenMenu: {
+        display: "none"
     }
 }));
