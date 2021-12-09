@@ -3,13 +3,17 @@ import React from "react";
 // Import af billeder
 import FlagLogo from "../../assets/img/page-header-duck.png";
 
+// Import af styles
+import useStyles from './style';
+
 export const Concept = () => {
+    const classes = useStyles();
   return(
-    <div style={{ textAlign: "center", flex: 1, alignItems: "center", justifyContent: "center" }}>
-            <p style={{ marginTop: 10, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto" }}>
+    <div className={classes.content}>
+            <p className={classes.title}>
                 <img src={FlagLogo} alt="Error"/> Hvad Er Aarhus Duck Race?
             </p>
-            <div style={{ fontSize: 16}}>
+            <div className={classes.text}>
             <p>
                 Aarhus Duckrace er et spændende festligt
                 familie arrangement. Hvor 5000 super
