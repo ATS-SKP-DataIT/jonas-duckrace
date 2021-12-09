@@ -18,7 +18,7 @@ export const Home = () => {
       opacity: 0,
       height: "0px"
     },
-    config: {duration: 3000}
+    config: {duration: 4000}
   });
 
   const animateHome = useSpring({
@@ -28,7 +28,7 @@ export const Home = () => {
     to: {
       opacity: 1,
     },
-    config: {duration: 4000}
+    config: {duration: 4500}
   });
   
   return (
