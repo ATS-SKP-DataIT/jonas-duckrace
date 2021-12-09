@@ -3,11 +3,6 @@
     color: white !important;
 }
 
-.homeLogo{
-    position: relative;
-    left: 40vw;
-}
-
 body{
     overflow: hidden;
 }
@@ -16,6 +11,14 @@ body{
     border: 1px solid black;
     padding: 0px;
     margin: 0px; 
+}
+
+/* Navgation Logo Centered or not */
+@media only screen and (max-width: 991px) {
+    .homeLogo{
+        position: relative;
+        left: 45%;
+    }
 }
 
 
