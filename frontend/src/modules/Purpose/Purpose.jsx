@@ -11,7 +11,7 @@ export const Purpose = () => {
   return(
     <div className={classes.content}>
       <p className={classes.title}>
-        <img src={FlagLogo} alt="Error"/> Hvad Er Aarhus Duck Race?
+        <img src={FlagLogo} alt="Error"/> Hvad er Aarhus Duck Race?
       </p>
       <div className={classes.text}>
         <p>
