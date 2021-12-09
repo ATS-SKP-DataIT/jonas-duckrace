@@ -1,38 +1,41 @@
 import React from "react";
-import './prizes.css';
 
 // Bootstrap Import
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+// Import af logo
 import Logo from "../../assets/img/page-header-duck.png";
 
+// Import af styles
+import useStyles from './style';
 
 export const Prizes = () => {
+  const classes = useStyles();
   return(
-    <div style={{ flex: 1, textAlign: "center", alignItems: "center", justifyContent: "center" }}>
-      <p style={{ marginTop: 10, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto" }}> 
+    <div className={classes.content}>
+      <p className={classes.title}> 
         <img src={Logo} alt="Error"/> Præmier
       </p>
       <Container>
         <Row>
-          <Col>1 of 3</Col>
+          <Col className={classes.col}>1 of 3</Col>
         </Row>
         <Row>
-          <Col>1 of 3</Col>
-          <Col>2 of 3</Col>
-          <Col>3 of 3</Col>
+          <Col className={classes.col}>1 of 3</Col>
+          <Col className={classes.col}>2 of 3</Col>
+          <Col className={classes.col}>3 of 3</Col>
         </Row>
         <Row>
-          <Col>1 of 3</Col>
-          <Col>2 of 3</Col>
-          <Col>3 of 3</Col>
+          <Col className={classes.col}>1 of 3</Col>
+          <Col className={classes.col}>2 of 3</Col>
+          <Col className={classes.col}>3 of 3</Col>
         </Row>
         <Row>
-          <Col>1 of 3</Col>
-          <Col>2 of 3</Col>
-          <Col>3 of 3</Col>
+          <Col className={classes.col}>1 of 3</Col>
+          <Col className={classes.col}>2 of 3</Col>
+          <Col className={classes.col}>3 of 3</Col>
         </Row>
       </Container>
     </div>

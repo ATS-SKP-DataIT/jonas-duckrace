@@ -1,16 +1,20 @@
 import React from "react";
-import "./style.css";
+
+// Import af billeder
 import Title from "../../assets/img/splash-logo.png"
 import Logo from "../../assets/img/aarhustech-logo.png"
 
+// Import af styles
+import useStyles from './style';
+
 export const LoadingSplash = () => {
-  
+  const classes = useStyles();
   return (
-    <div className="splashBody">
-        <div className="Image">
+    <div className={classes.splashBody}>
+        <div className={classes.image}>
             <img alt="Not loaded" src={Title} />
         </div>
-        <p className="credit">Made by AARHUS TECH <img className="ATLogo" alt="Not loaded" src={Logo} /></p>
+        <p className={classes.credit}>Made by AARHUS TECH <img className={classes.ATLogo} alt="Not loaded" src={Logo} /></p>
     </div>
   )
 };

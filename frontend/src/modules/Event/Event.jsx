@@ -3,14 +3,18 @@ import React from "react";
 import WhereLogo from "../../assets/img/where-is-it-page-header.png"
 import Location from "../../assets/img/PlaceholderEmmet.png"
 
+// Import af styles
+import useStyles from './style';
+
 export const Event = () => {
+  const classes = useStyles();
   return (
-    <div style={{ flex: 1, textAlign: "center", alignItems: "center", justifyContent: "center" }}>
-      <p style={{ marginTop: 10, color: "#2B2E34", fontSize: 25, fontFamily: "Roboto"  }}> 
+    <div className={classes.content}>
+      <p className={classes.title}> 
         <img src={WhereLogo} alt="Error"/> Hvor foregår racet?
       </p>
       <div>
-        <img src={Location} alt="Error" style={{ width: "70%", border: "2px solid black"}}/>
+        <img src={Location} alt="Error" className={classes.location}/>
         <p><br/>
           Vore ænder skal tilbageligge den krævende
           strækning fra Vester Alle til Immervad.
