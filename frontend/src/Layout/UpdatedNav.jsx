@@ -18,10 +18,6 @@ export const Navigation = () => {
   const [burgerShow, setBurgerShow] = useState(null);
   const classes = useStyles()
 
-    if (window.innerWidth <= 760){
-        setBurgerShow(classes.image)
-    }
-
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -46,31 +42,31 @@ export const Navigation = () => {
             <img src={homeLogo} alt="homeLogo" className={classes.image} />
           </IconButton>
           <MenuItem className={classes.menuItem}>
-            <Typography className={classes.link} component={Link} to="/concept">Hvad er Århus Duck Race?</Typography>
+            <Typography className={classes.linkNav} component={Link} to="/concept">Hvad er Århus Duck Race?</Typography>
           </MenuItem>
           <MenuItem className={classes.menuItem}>
-            <Typography className={classes.link} component={Link} to="/buy">Køb din and her</Typography>
+            <Typography className={classes.linkNav} component={Link} to="/buy">Køb din and her</Typography>
           </MenuItem>
           <MenuItem className={classes.menuItem}>
-            <Typography className={classes.link} component={Link} to="/donate">Donér til os her</Typography>
+            <Typography className={classes.linkNav} component={Link} to="/donate">Donér til os her</Typography>
           </MenuItem>
           <MenuItem className={classes.menuItem}>
-            <Typography className={classes.link} component={Link} to="/event">Hvor foregår det?</Typography>
+            <Typography className={classes.linkNav} component={Link} to="/event">Hvor foregår det?</Typography>
           </MenuItem>
           <MenuItem className={classes.menuItem}>
-            <Typography className={classes.link} component={Link} to="/prizes">Præmier</Typography>
+            <Typography className={classes.linkNav} component={Link} to="/prizes">Præmier</Typography>
           </MenuItem>
           <MenuItem className={classes.menuItem}>
-            <Typography className={classes.link} component={Link} to="/purpose">Formål</Typography>
+            <Typography className={classes.linkNav} component={Link} to="/purpose">Formål</Typography>
           </MenuItem>
           <MenuItem className={classes.menuItem}>
-            <Typography className={classes.link} component={Link} to="/aboutus">Om os</Typography>
+            <Typography className={classes.linkNav} component={Link} to="/aboutus">Om os</Typography>
           </MenuItem>
 
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             
           </Typography>
-            <div>
+            <div className={classes.hideBurger}>
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -96,16 +92,15 @@ export const Navigation = () => {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
               >
-                <MenuItem component={Link} to="/concept" onClick={handleClose}>Hvad er Århus Duck Race?</MenuItem>
-                <MenuItem component={Link} to="/buy" onClick={handleClose}>Køb din and her</MenuItem>
-                <MenuItem component={Link} to="/donate" onClick={handleClose}>Donér til os her</MenuItem>
-                <MenuItem component={Link} to="/event" onClick={handleClose}>Hvor foregår det?</MenuItem>
-                <MenuItem component={Link} to="/prizes" onClick={handleClose}>Præmier</MenuItem>
-                <MenuItem component={Link} to="/purpose" onClick={handleClose}>Formål</MenuItem>
-                <MenuItem component={Link} to="/aboutus" onClick={handleClose}>Om os</MenuItem>
+                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/concept" onClick={handleClose}>Hvad er Århus Duck Race?</MenuItem>
+                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/buy" onClick={handleClose}>Køb din and her</MenuItem>
+                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/donate" onClick={handleClose}>Donér til os her</MenuItem>
+                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/event" onClick={handleClose}>Hvor foregår det?</MenuItem>
+                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/prizes" onClick={handleClose}>Præmier</MenuItem>
+                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/purpose" onClick={handleClose}>Formål</MenuItem>
+                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/aboutus" onClick={handleClose}>Om os</MenuItem>
               </Menu>
             </div>
-          
         </Toolbar>
       </AppBar>
     </Box>

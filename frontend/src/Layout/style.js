@@ -1,30 +1,35 @@
 import { makeStyles, alpha } from '@material-ui/core/styles';
 
+
 const drawerWidth = 0;
 
 export default makeStyles((theme) => ({
     appBar: {
-        boxShadow: "none"
+        boxShadow: "none",
+        width: "100%"
     },
     toolBar: {
-        backgroundColor: "#EFA80A"
+        backgroundColor: "#EFA80A",
     },
     image: {
-        marginRight: "10px"
+        marginRight: "-5px",
     },
-    link: {
+    linkNav: {
         textDecoration: "none",
         color: "white",
-    },
-    menuItem: {
-        textDecoration: "none"
-    },
-    hiddenMenu: {
-        display: "none"
-    },
-    [theme.breakpoints.up('sm')]: {
-        menuItem: {
+        [theme.breakpoints.down('md')]: {
             display: "none"
         }
-      }
+    },
+    menuItem: {
+        textDecoration: "none",
+    },
+    hideBurger: {
+        [theme.breakpoints.up('md')]: {
+            display: "none"
+        }
+    },
+    burgerLink: {
+        backgroundColor: "red"
+    }
 }));
