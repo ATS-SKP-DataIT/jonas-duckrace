@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import { NotFound } from "./NotFound";
 import { Layout } from "./Layout/Layout";
@@ -16,24 +16,22 @@ import { LoadingSplash } from './modules/LoadingSplash/LoadingSplash'
 
 
 function App() {
-  return ( 
-	  <BrowserRouter basename={"/skp-projekt-aarhus-duck-race/"}>
+    return ( 
       <Layout>
         <Switch>
-          <Route path="/" exact={true} component={Home} />
-          <Route path="/concept" exact={true} component={Concept} />
-          <Route path="/buy" exact={true} component={Buy} />
-          <Route path="/event" exact={true} component={Event} />
-          <Route path="/prizes" exact={true} component={Prizes} />
-          <Route path="/purpose" exact={true} component={Purpose} />
-          <Route path="/AboutUs" exact={true} component={AboutUs} />
-          <Route path="/Donate" exact={true} component={Donate} />
-          <Route path="/splash" exact={true} component={LoadingSplash} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/concept" component={Concept} />
+          <Route exact path="/buy" component={Buy} />
+          <Route exact path="/event" component={Event} />
+          <Route exact path="/prizes" component={Prizes} />
+          <Route exact path="/purpose" component={Purpose} />
+          <Route exact path="/AboutUs" component={AboutUs} />
+          <Route exact path="/Donate" component={Donate} />
+          <Route exact path="/splash" component={LoadingSplash} />
           <Route component={NotFound} />
         </Switch>
       </Layout>
-    </BrowserRouter>
-  );
+    );
 }
 
 export default App;

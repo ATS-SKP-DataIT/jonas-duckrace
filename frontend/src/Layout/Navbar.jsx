@@ -10,13 +10,14 @@ import navLogo from "../assets/img/home-button.png"
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 export const Navigation = () => {
   return (
     <>
       <Navbar id="navbar" className="primary-color navMain" expand="lg">
         <Container id="container">
-          <Navbar.Brand className="homeLogo" href="/">
+          <Link className="navbar-brand homeLogo" to="/" >
             <img
               src={navLogo}
               width="50"
@@ -25,7 +26,7 @@ export const Navigation = () => {
               className="d-inline-block align-top"
               alt="HomeLogo"
             />
-          </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <img
               src={burgerLogo}
@@ -37,13 +38,13 @@ export const Navigation = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav" className="navCollapse">
             <Nav className="me-auto">
-              <Nav.Link href="/concept">Hvad er Århus Duck Race?</Nav.Link>
-              <Nav.Link href="/buy">Køb din and her</Nav.Link>
-              <Nav.Link href="/donate">Doner til os her!</Nav.Link>
-              <Nav.Link href="/event">Hvor foregår det?</Nav.Link>
-              <Nav.Link href="/prizes">Præmier</Nav.Link>
-              <Nav.Link href="/purpose">Formål</Nav.Link>
-              <Nav.Link href="/aboutus">Om os</Nav.Link>
+              <Link className="nav-link" to="/concept">Hvad er Århus Duck Race?</Link>
+              <Link className="nav-link" to="/buy">Køb din and her</Link>
+              <Link className="nav-link" to="/donate">Doner til os her!</Link>
+              <Link className="nav-link" to="/event">Hvor foregår det?</Link>
+              <Link className="nav-link" to="/prizes">Præmier</Link>
+              <Link className="nav-link" to="/purpose">Formål</Link>
+              <Link className="nav-link" to="/aboutus">Om os</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
