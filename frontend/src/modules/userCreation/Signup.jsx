@@ -12,26 +12,27 @@ export const Signup = () => {
 
     const onSubmitForm = async (e) => {
         e.preventDefault();
-        try {
-           Axios.post("http://localhost:5000/create", {username, phone, password})
-           .then(response => {
-               console.log(response)
-           })
-           } catch (err) {
-            console.log(err.message);
+        try{
+            const response = await Axios.post("http://localhost:5000/create", {
+                username,
+                password,
+                phone
+            })
+        }catch(err){
+            console.log(err);
         }
     }
 
     return (
         <div className={classes.signupBody}>
-            <form onSubmit={onSubmitForm}>
+            <form action="/create" method="POST" onSubmit={onSubmitForm}>
             <div className={classes.signupBody}>
                 <h1>Opret en bruger her</h1>
-                <TextField onChange={username => setUsername(username)} className={classes.input} id="standard-basic" label="Brugernavn" variant="standard" />
-                <TextField onChange={phone => setPhone(phone)} className={classes.input} id="standard-basic" label="Telefon nummer" variant="standard" />
-                <TextField onChange={password => setPassword(password)} className={classes.input} id="standard-basic" label="Kodeord" type="password" variant="standard" /><br/>
+                <TextField onChange={(e) => setUsername(e.target.value)} className={classes.input} value={username} required id="standard-basic" label="Brugernavn" variant="standard" />
+                <TextField onChange={(e) => setPhone(e.target.value)} className={classes.input} value={phone} required id="standard-basic" label="Telefon nummer" variant="standard"  />
+                <TextField onChange={(e) => setPassword(e.target.value)} className={classes.input} value={password} required id="standard-basic" label="Kodeord" type="password" variant="standard" /><br/>
             </div>
-            <Button className={classes.button} value="submit" type="submit" variant="outlined">Opret nu</Button>
+            <Button className={classes.button} value="submit" type="submit" onClick={() => onSubmitForm}variant="outlined">Opret nu</Button>
             </form>
         </div>
     )
