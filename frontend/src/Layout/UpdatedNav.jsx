@@ -62,6 +62,9 @@ export const Navigation = () => {
           <MenuItem className={classes.menuItem}>
             <Typography className={classes.linkNav} component={Link} to="/aboutus">Om os</Typography>
           </MenuItem>
+          <MenuItem className={classes.menuItem}>
+            <Typography className={classes.linkNav} component={Link} to="/profile">Din konto</Typography>
+          </MenuItem>
 
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             
@@ -99,6 +102,7 @@ export const Navigation = () => {
                 <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/prizes" onClick={handleClose}>Præmier</MenuItem>
                 <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/purpose" onClick={handleClose}>Formål</MenuItem>
                 <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/aboutus" onClick={handleClose}>Om os</MenuItem>
+                <MenuItem style={{backgroundColor: "#FCE7A4"}} component={Link} to="/profile" onClick={handleClose}>Din konto</MenuItem>
               </Menu>
             </div>
         </Toolbar>
