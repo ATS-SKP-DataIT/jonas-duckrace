@@ -16,7 +16,19 @@ Hvor 9fc7f40915c2 i dette tilfælde er container id for <i>skp-projekt-aarhus-du
 og man står i: 
 ```/var/www/skp-projekt-aarhus-duck-race/frontend```
 
-## Opdatering af Node til version 12
+## Opdatering af Node til version 12.x
 Tjek version
 ```nodejs --version```
+
+Installer med:
+```# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+eller
+```
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_12.x | bash -
+apt-get install -y nodejs```
+
 
