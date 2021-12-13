@@ -15,3 +15,8 @@ sudo docker cp build/. 9fc7f40915c2:/usr/share/nginx/html/.
 Hvor 9fc7f40915c2 i dette tilfælde er container id for <i>skp-projekt-aarhus-duck-race_nginx</i>
 og man står i: 
 ```/var/www/skp-projekt-aarhus-duck-race/frontend```
+
+## Opdatering af Node til version 12
+Tjek version
+```nodejs --version```
+
