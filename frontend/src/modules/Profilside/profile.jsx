@@ -8,7 +8,7 @@ export const Profile = () => {
             <h1>Velkommen!</h1>
             <div>
             <Typography>Login her!</Typography>
-            <Button variant="outlined">Login</Button>
+            <Button component={Link} to="/login" variant="outlined">Login</Button>
             </div>
             <div>
                 <Typography>Ikke en bruger? Opret dig her.</Typography>

@@ -18,15 +18,20 @@ export default makeStyles((theme) => ({
         textDecoration: "none",
         color: "white",
         [theme.breakpoints.down('md')]: {
-            display: "none"
+            display: "none",
+            fontSize: "0px"
         }
     },
     menuItem: {
         textDecoration: "none",
+        [theme.breakpoints.down('md')]: {
+            fontSize: "0px"
+        }
     },
     hideBurger: {
         [theme.breakpoints.up('md')]: {
-            display: "none"
+            display: "none",
+            position: "relative"
         }
     },
     burgerLink: {

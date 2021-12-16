@@ -15,6 +15,7 @@ import { Donate } from "./modules/Donate/Donate"
 import { LoadingSplash } from './modules/LoadingSplash/LoadingSplash'
 import { Signup } from './modules/userCreation/Signup'
 import { Profile } from './modules/Profilside/profile'
+import { Login } from './modules/Login/Login'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route exact path="/Donate" component={Donate} />
           <Route exact path="/splash" component={LoadingSplash} />
           <Route exact path="/signup" component={Signup} />
+          <Route exact path="/login" component={Login} />
           <Route exact path="/profile" component={Profile} />
           <Route component={NotFound} />
         </Switch>
