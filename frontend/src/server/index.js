@@ -10,17 +10,6 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
 
-app.get("/signup", async(req, res) => {
-    res.json({
-        status: "success",
-        data: {
-            user: ["username", "phone"]
-        }
-    })
-    console.log("Test");
-    res.send("skrt");
-})
-
 //Create user
 app.post("/create", async(req,res) => {
     const saltRounds = 10;

@@ -13,5 +13,8 @@ export default makeStyles((theme) => ({
     },
     button: {
         backgroundColor: "#EFA80A"
+    },
+    successMsg: {
+        backgroundColor: "green",
     }
 }))

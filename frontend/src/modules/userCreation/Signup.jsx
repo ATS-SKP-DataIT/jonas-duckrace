@@ -9,6 +9,7 @@ export const Signup = () => {
     const [username, setUsername] = useState("");
     const [phone, setPhone] = useState("");
     const [password, setPassword] = useState("");
+    const [success, setSuccess] = useState()
 
     const onSubmitForm = async (e) => {
         e.preventDefault();
@@ -17,9 +18,14 @@ export const Signup = () => {
                 username,
                 password,
                 phone
-            })
+            }).then(
+                setSuccess(true),
+                setPassword("")
+            )
+
         }catch(err){
             console.log(err);
+            setSuccess(false)
         }
     }
 
@@ -27,6 +33,7 @@ export const Signup = () => {
         <div className={classes.signupBody}>
             <form action="/create" method="POST" onSubmit={onSubmitForm}>
             <div className={classes.signupBody}>
+                {success ? <h1 className={classes.successMsg}>Brugeren {username} blev oprettet!</h1>: null}
                 <h1>Opret en bruger her</h1>
                 <TextField onChange={(e) => setUsername(e.target.value)} className={classes.input} value={username} required id="standard-basic" label="Brugernavn" variant="standard" />
                 <TextField onChange={(e) => setPhone(e.target.value)} className={classes.input} value={phone} required id="standard-basic" label="Telefon nummer" variant="standard"  />
