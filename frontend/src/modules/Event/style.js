@@ -18,7 +18,7 @@ export default makeStyles((theme) => ({
     },
     location:{
         width: "70%",
-        maxWidth: "55%", 
+        maxWidth: "400px", 
         border: "2px solid black"
     }
 }));
