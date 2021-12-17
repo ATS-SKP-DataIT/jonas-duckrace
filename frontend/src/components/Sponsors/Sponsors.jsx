@@ -3,9 +3,13 @@ import React from "react";
 import Sponser from "./SponsorData.json";
 import Carousel from 'react-bootstrap/Carousel'
 
+// Import af styles
+import useStyles from './style';
+
 export const Sponsors = () => {
+  const classes = useStyles();
   return (
-    <Carousel variant="dark" style={{position: "absolute", border: "1px solid black",  bottom: 0, width: "100%"}}
+    <Carousel variant="dark" className={classes.carousel}
     controls={false}
     indicators={true}
     >
