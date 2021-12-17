@@ -11,11 +11,11 @@ export default makeStyles((theme) => ({
         fontFamily: "Roboto"
     },
     underContent:{
-        marginTop: "20%"
+        marginTop: "5vh"
     },
     textLogo:{
         width: "40vw",
-        maxWidth: "350px", 
+        maxWidth: "250px", 
         float: "left"
     },
     inputAntal:{
