@@ -15,7 +15,7 @@ export const Concept = () => {
             </p>
             <div className={classes.text}>
             <p>
-                Aarhus Duckrace er et spændende festligt
+                Aarhus Duck Race er et spændende festligt
                 familie arrangement. Hvor 5000 super
                 hurtige ænder dyster om at være den
                 hurtigste and på åen.

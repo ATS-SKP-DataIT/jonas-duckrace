@@ -15,7 +15,7 @@ export const AboutUs = () => {
       </p>
       <div className={classes.text}>
         <p>
-          Foreningen ”Aarhus duck Race” er
+          Foreningen ”Aarhus Duck Race” er
           en forening som ene og alene
           på 100 % frivillig basis at afholde
           dette løb og folkefest.

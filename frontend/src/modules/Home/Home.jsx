@@ -37,7 +37,7 @@ export const Home = () => {
       <LoadingSplash id="hideMe"/>
     </animated.div>
     <animated.div style={animateHome} className="homePage">
-      <h1 className="title font-weight-bold text-center">Aarhus duck race</h1>
+      <h1 className="title font-weight-bold text-center">Aarhus Duck Race</h1>
       <div className="video"></div>
       <div className="d-flex">
         <Calendar />

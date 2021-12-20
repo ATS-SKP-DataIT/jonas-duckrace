@@ -24,7 +24,7 @@ export const Purpose = () => {
           Overskuddet at Aarhus duckrace går ubeskåret til dette
 			  </p>
         <p>
-          Al arbejde i forbindelse med Aarhus duck race er frivillige og ulønnede.
+          Al arbejde i forbindelse med Aarhus Duck Race er frivillige og ulønnede.
 			  </p>
         <p>
           Samtidigt med dette vil vi, udviklings hæmmede gerne holde en fest for jer. Som via jeres skat hverdag hjælper os.
