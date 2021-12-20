@@ -98,7 +98,7 @@ App{
         opacity: 0.5;
     }
     body{
-        overflow: scroll;
+        overflow: hidden;
     }
     
  }

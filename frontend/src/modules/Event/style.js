@@ -17,7 +17,7 @@ export default makeStyles((theme) => ({
         fontSize: 20
     },
     location:{
-        width: "70%",
+        width: "40vw",
         maxWidth: "400px", 
         border: "2px solid black"
     }
