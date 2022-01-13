@@ -1,0 +1,22 @@
+CONTAINER ID   IMAGE                                  COMMAND                  CREATED        STATUS                          PORTS                                               NAMES
+c37b486c3c57   skp-projekt-aarhus-duck-race_backend   "/start.sh"              23 hours ago   Exited (3) 23 hours ago                                                             eager_ptolemy
+2662657a7975   skp-projekt-aarhus-duck-race_nginx     "docker-entrypoint.s…"   5 weeks ago    Restarting (1) 52 seconds ago                                                       nginx_adr_prod
+7e5d28592a91   skp-projekt-aarhus-duck-race_backend   "uvicorn app.main:ap…"   5 weeks ago    Up 26 hours                     80/tcp, 0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   backend_fastapi_prod
+7693ee1a69b9   postgres:12.0-alpine                   "docker-entrypoint.s…"   5 weeks ago    Exited (255) 4 weeks ago        5432/tcp                                            postgresql_bue_prod
+bcf2baac0cd9   nginx                                  "/docker-entrypoint.…"   5 weeks ago    Up 34 seconds                   0.0.0.0:8080->80/tcp, :::8080->80/tcp               webserver
+
+
+
+
+REPOSITORY                             TAG           IMAGE ID       CREATED        SIZE
+skp-projekt-aarhus-duck-race_nginx     latest        1f760cf9b776   5 weeks ago    170MB
+<none>                                 <none>        9416cf69381c   5 weeks ago    673MB
+<none>                                 <none>        9d04908097c0   5 weeks ago    511MB
+<none>                                 <none>        61d4e04dc421   5 weeks ago    511MB
+skp-projekt-aarhus-duck-race_backend   latest        620b222ef94c   5 weeks ago    996MB
+nginx                                  latest        f652ca386ed1   6 weeks ago    141MB
+node                                   alpine        bb1fcdaff936   6 weeks ago    170MB
+redis                                  latest        40c68ed3a4d2   8 weeks ago    113MB
+tiangolo/uvicorn-gunicorn-fastapi      python3.7     bc3531b1f244   3 months ago   970MB
+hello-world                            latest        feb5d9fea6a5   3 months ago   13.3kB
+postgres                               12.0-alpine   5b681acb1cfc   2 years ago    72.8MB
