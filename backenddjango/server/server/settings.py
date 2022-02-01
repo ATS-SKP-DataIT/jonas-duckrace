@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-w9se$)o8_s=o!2-2rfes6(=db(t0618daj^p2r#yri5%p!9!9('
+# SECRET_KEY = 'django-insecure-w9se$)o8_s=o!2-2rfes6(=db(t0618daj^p2r#yri5%p!9!9('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -85,10 +86,10 @@ DATABASES = {
     # Database connection to PostgresSQL container
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'notesdb',
-        'USER': 'postgres',
-        'PASSWORD': 'guest',
-        'HOST': 'db',
+        'NAME': os.environ.get('POSTGRESQL_DATABASE'),
+        'USER': os.environ.get('POSTGRESQL_USERNAME'),
+        'PASSWORD': os.environ.get('POSTGRESQL_PASSWORD'),
+        'HOST': os.environ.get('POSTGRESQL_HOST'),
         'PORT': '5432'
     }
 }

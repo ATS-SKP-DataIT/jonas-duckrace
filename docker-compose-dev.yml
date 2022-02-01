@@ -17,9 +17,14 @@ services:
     build:
       context: ./backenddjango
       dockerfile: Dockerfile.dev
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python server/manage.py runserver 0.0.0.0:8000
     volumes:
       - ./backenddjango/server:/code
+    environment:
+      - POSTGRESQL_USERNAME=postgres
+      - POSTGRESQL_PASSWORD=guest
+      - POSTGRESQL_DATABASE=notesdb
+      - POSTGRESQL_HOST=db
     ports:
       - 8000:8000
     depends_on:
