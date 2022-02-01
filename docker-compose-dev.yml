@@ -1,16 +1,29 @@
 version: "3.7"
 
 services:
-  backend_fastapi:
-    container_name: backend-fastapi-dev
-    build: 
-      context: ./backendfastapi
+  # backend_fastapi:
+  #   container_name: backend-fastapi-dev
+  #   build: 
+  #     context: ./backendfastapi
+  #     dockerfile: Dockerfile.dev
+  #   command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+  #   volumes:
+  #     - ./backendfastapi/:/usr/src/app/
+  #   ports:
+  #     - 8000:8000
+
+  backend_django:
+    container_name: backend-django-dev
+    build:
+      context: ./backenddjango
       dockerfile: Dockerfile.dev
-    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - ./backendfastapi/:/usr/src/app/
+      - ./backenddjango/server:/code
     ports:
       - 8000:8000
+    depends_on:
+      - db
   frontend:
     container_name: frontend-dev
     build:
@@ -30,9 +43,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRESQL_USERNAME=guest
+      - POSTGRESQL_USERNAME=postgres
       - POSTGRESQL_PASSWORD=guest
-      - POSTGRESQL_DATABASE=notes
+      - POSTGRESQL_DATABASE=notesdb
     ports: 
       - "5432:5432"
 volumes:
